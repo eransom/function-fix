@@ -1,0 +1,61 @@
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 3em;
+  color: #21447C;
+  text-align: center;
+  border: 1px solid #21447C;
+  border-left-color: white;
+  border-right-color: white;
+  margin-bottom: 2em;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  color: #21447C;
+  margin-bottom: 2em;
+}
+
+.temp {
+  margin-bottom: 5em;
+}
+
+.greet {
+  margin-bottom: 5em;
+}
+
+.sentence {
+  margin-bottom: 5em;
+}
+
+.weekend {
+  margin-bottom: 5em;
+}
+
+
+p {
+  font-size: 22px;
+}
+
+.gist {
+  width: 30em;
+}
+
+.gist-meta {
+  display: none;
+}
+
+.explain p {
+  font-size: 20px;
+  width: 40em;
+}
+
+hr {
+  height: 1px;
+  color: black;
+  opacity: .8;
+  margin-bottom: 2em;
+}
+
+/*body {
+  background-color: #E1EAF6;
+}*/

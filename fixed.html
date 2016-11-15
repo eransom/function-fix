@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Functions</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <header>
+
+      <h1>FIXING BROKEN FUNCTIONS</h1>
+
+    </header>
+
+  <!--   TEMPERATURE CONVERTER   -->
+
+    <section class="temp">
+
+      <h3>TEMPERATURE CONVERTER</h3>
+
+      <div class="gist">
+        <script src="https://gist.github.com/eransom/60fe109000b817181277474a13b7a5ed.js"></script>
+      </div>
+
+
+      <p><strong>To Fix:</strong>  In the function 'CelsiusConverter', there is no return being used to tell what
+         the function will do once called.<br> This results in an undefined value when calling
+         the function.  Putting 'return' before '(tempF-32) / 1.8 will
+         allow the<br> function to run against an argument.</p>
+
+      <div class="gist">
+        <script src="https://gist.github.com/eransom/e3aacd54a66f717d1e144c846db37b0e.js"></script>
+      </div>
+
+    </section>
+
+      <hr>
+
+
+  <!--  GREETER  -->
+
+  <section class="greet">
+
+    <h3>GREETER</h3>
+
+    <div class="gist">
+      <script src="https://gist.github.com/eransom/17ef2d9d11f59ddfbf5d266a44ea05bf.js"></script>
+    </div>
+
+    <p><strong>To Fix:</strong> The function 'greet' is missing an argument.  Placing 'name' within
+            the parenthesis after 'greet'<br> provides an argument for the function.</p>
+
+    <div class="gist">
+      <script src="https://gist.github.com/eransom/455185944947fbc81b5b6fa4d6519147.js"></script>
+    </div>
+
+  </section>
+
+    <hr>
+
+  <!-- SENTENCE MAKER -->
+
+    <section class="sentence">
+
+      <h3>SENTENCE MAKER</h3>
+
+      <script src="https://gist.github.com/eransom/e986546780abd207e4d25ec4b459ada5.js"></script>
+
+      <p>
+        <strong>To Fix:</strong> This function declares a value of 1 for i.  Because arrays start at 0,
+            the correct value for i should be changed to 0.<br> Now the function returns starting with
+            the first letter of a word.
+      </p>
+
+      <div class="gist">
+        <script src="https://gist.github.com/eransom/0da43484865cbb159237cf6f68b2d410.js"></script>
+      </div>
+
+    </section>
+
+    <hr>
+
+  <!-- WEEKEND FINDER  -->
+
+    <section class="weekend">
+
+      <h3>WEEKEND FINDER</h3>
+
+      <div class="gist">
+        <script src="https://gist.github.com/eransom/6bb75d0aa69a7627cb88be2670ca2873.js"></script>
+      </div>
+
+      <p>
+        <strong>To Fix:</strong> The comparison value of = is incorrect.  Changing it to == is the<br>
+                correct way to say 'equal to'.
+      </p>
+
+      <div class="gist">
+        <script src="https://gist.github.com/eransom/9bbbe963388de098b5e881ad47040baa.js"></script>
+      </div>
+
+    </section>
+
+    <hr>
+
+  <!-- COMPARER  -->
+
+    <section class="compare">
+
+      <h3>COMPARER</h3>
+
+      <div class="gist">
+        <script src="https://gist.github.com/eransom/6a9a38920dc3c9a1e43a4a6fbc7d3392.js"></script>
+      </div>
+
+
+      <p><strong>To Fix:</strong> This function has incorrectly used 'else' and 'if'.  Putting 'else if'<br>
+            corrects this.  Also there were two curly brackets missing before the else to close out the<br>
+            previous return.</p>
+
+      <div class="gist">
+        <script src="https://gist.github.com/eransom/b35297ef425c86ccc671bc563d205de2.js"></script>
+      </div>
+
+    </section>
+
+    <hr>
+
+  <!-- EXPLAIN  -->
+
+    <section class="explain">
+
+      <h3>EXPLAIN THIS FUNCTION</h3>
+
+      <div class="gist">
+        <script src="https://gist.github.com/eransom/bbdf13a59350c6380e79afeef00ef9b9.js"></script>
+      <div>
+
+      <p>The function tipCalculator is taking the two parameters 'serviceLevel' and 'mealCost', and applying <br>
+         them to the level of service or 'tipLevel'.  The tipLevel is an array of various tipping percents.<br>
+         To calculate the tip the function is returned by multiplying the 'mealCost' by 1 + the percent the
+         corresponding percentage in the array.</p>
+
+    </section>
+
+    <hr>
+
+
+  </body>
+</html>
